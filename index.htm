@@ -1,32 +1,58 @@
 <!DOCTYPE html>
 <head>
-            
+ <style>
+   p {
+     font-family: cursive;
+   }
+ </style>
+<link rel="stylesheet" type="text/css"href="style.css">
 
-            
-<h1 style ="background-color:rgb(88, 184, 104)" ;>INTERNSHIP APPLICATION FORM </h1><br>
+</head>    
+<h2 style ="background-color:rgb(88, 184, 104)";>INTERNSHIP APPLICATION FORM </h2><br>
 
-<body style= "background-color: rgb(230, 222, 230)";>
- 
-
-
- <form action ="logindata.php" method="post" >
+<body style= "background-color: rgb(230, 222, 230)"; background="sysimage.jpg";>
    
-<table length ="1000" width="700" align="left">    
+  <style>
+    
+    h2{
+      text-align: center;
+      height: 50px;
+      width: 50%;
+      padding:2px;
+    
+    }
+    body {
+      background-repeat: no-repeat;
+      background-size:cover;
+      background-attachment: fixed;
+      
+    }
+    </style>
+    <!-- <div class ="video-container">
+     <video autoplay loop muted>
+     <source src="nature.mp4" type="video/mp4">
+     </video>
+     </div> -->
 
-<tr><td>Name : </td><td><input type ="text" name="name" placeholder="Enter name" required></td><br><br></br></tr>
+    <div class="sec"> 
+ <form method="post" >
+   
+<table length ="800" width="700" align="left">     
 
-<tr><td>Date of Birth :</td><td><input type ="date" ></br></br></td></tr>
+<tr><td> <h4>Name : </h4></td><td><input type ="text" name="name" placeholder="Enter name" required></td><br><br></br></tr>
+
+<tr><td> <h4>Date of Birth :</h4></td><td><input type ="date" ></br></br></td></tr>
 
 
-<tr><td>Mobile no:</td><td><input type = "number" placeholder="12345-67890" ></br> <br></td></tr>
-<tr><td>age:</td><td><input type = "number" min="1" max="60"></br><br> </td></tr>
+<tr><td><h4>Mobile no:</h4></td><td><input type = "text" placeholder="12345-67890"  ></br> <br></td></tr>
+<tr><td><h4>age:</h4></td><td><input type = "number" min="1" max="60"></br><br> </td></tr>
 
-<tr><td>Gender:</td><td><input type ="radio" name="Gender " value="Male">Male
+<tr><td><h4>Gender:</h4></td><td><input type ="radio" name="Gender " value="Male">Male
 <input type ="radio" name="Gender" value="Female">Female<br><br></td></tr>
 
-<tr><td>Email:</td><td><input type ="email" name ="email"></br><br></td></tr>
+<tr><td><h4>Email:</h4></td><td><input type ="email" name ="email"></br><br></td></tr>
 
-<tr><td>Qualification:</td> 
+<tr><td> <h4>Qualification: </h4></td> 
 <td><Select id="group" name="group"><br>
 <option value >CSE</option>
 <option selected > IT</option>
@@ -34,30 +60,30 @@
 <option value >BSC</option>
 </Select></td></tr>
 
-<tr><td>Language :</td>
+<tr><td> <h4>Language : </h4></td>
 <td><input type="checkbox"value= "PHP">PHP
 <input type="checkbox" value= "Java">Java
 <input type="checkbox"value= "HTML">HTML
 <input type="checkbox" value= "C">C <br></td></tr>
   <tr> <td><h4> Working Experience Details:</h4></td></tr>
-  <tr><td>  Company name:</td>
+  <tr><td> <h4> Company name: </h4></td>
   <td> <input type="text" id="cname" name="cname"><br><br></td></tr>
-  <tr><td>  Domain name :</td>
-  <td> <input type="text" id="dname" name="dname"><br><br></td></tr>
-   <tr><td> Experience:</td>
+   <tr><td> <h4>Experience: </h4></td>
   <td> <input type="exp" id="exp" name="exp"><br><br></td></tr>
     
    
     </tr></div>
-    <tr><td>Comments:</td><td><textarea rows="4" cols="10"placeholder="Welcome"></textarea></td></tr>
+    <tr><td><h4>Comments:</h4></td><td><textarea rows="4" cols="10"placeholder="Welcome"></textarea></td></tr>
 
-   <tr><td> Upload Resume:</td><td><input type="file"></td></tr>
+   <tr><td> <h4>Upload Resume:</h4></td><td><input type="file"></td></tr>
   <tr><td height="30" align= "center"></td>
-   <td> <button type="submit" value =submit  onclick="alert('Successfully Completed')"></button></td></tr>
+   <td><h4> <input type="submit" value =submit  onclick="alert('Successfully Completed')"></</button></td></tr>
   <tr><td> Cotact us Visit <a href="https://www.sparkouttech.com/"> Sparkout Tech Solution </td></tr>
 </table>
 
 </form>
+</div>
 
 </body>
-</head>
+
+</html>

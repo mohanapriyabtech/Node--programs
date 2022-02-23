@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+ <meta charset="UTF-8">
+ <title>Internship Form</title>
+ <link rel="stylesheet" href="stylereg.css">
+ <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+ 
+ 
+ <script type="text/javascript" lang="javascript" src="webv.js"></script>
+</head>
+       
+    <body style= "background-color: rgb(230, 222, 230)"; background="webimage.jpg";></body>>
+
+        <h1>INTERNSHIP FORM</h1>
+        
+        <div class="container">
+            <form action="" id="form"   method="post">
+            <div class="row">
+                <div class="collab">
+                    <label for="fname">First Name:</label>
+                    
+                </div>
+                <div class="colin">
+                    <input type="text" id="fname" name="firstname" placeholder="Enter your first name">
+                    <i class="ion-checkmark-circled"></i>
+                    <i class="ion-alert-circled"></i>
+                    <span id="message"> error</span>
+                                            
+                </div>
+                </div>
+                
+              <div class="row">
+                <div class="collab">
+                    <label for="lname">Last Name:</label>
+                   
+                </div>
+                <div class="colin">
+                    <input type="text" id="lname" name="lastname" placeholder="Enter your last name">
+                    <i class="ion-checkmark-circled"></i>
+                    <i class="ion-alert-circled"></i>
+                    <span id="message"> error</span>
+                                            
+                </div>
+               </div>
+            <div class="row">
+                <div class="collab">
+                    <label for="email">Email:</label>
+                </div>
+                <div class="colin">
+                    <input type="email" id="email" name="email" placeholder="abcd@gmail.com">
+                    <i class="ion-checkmark-circled"></i>
+                    <i class="ion-alert-circled"></i>
+                    <span id="message"> error</span>
+                                            
+                </div>
+            </div>
+            <div class="row">
+                <div class="collab">
+                    <label for="mobile">Mobile:</label>
+                </div>
+                <div class="colin">
+                    <input type="tel" id="mobile" name="mobile" placeholder="only 10 digits are allowed">
+                    <i class="ion-checkmark-circled"></i>
+                    <i class="ion-alert-circled"></i>
+                    <span id="message">error</span>
+                                            
+                </div>
+            </div>
+            <div class="row">
+                <div class="collab">
+                    <label for="gender" required>Gender:</label>
+                </div>
+                <div class="colin">
+                    <input type="radio"  class= "ge" id="male" name="gender" value="male">Male
+                    <input type="radio" class="ge" id="female" name="gender" value="female">Female
+                    <i class="ion-checkmark-circled"></i>
+                    <i class="ion-alert-circled"></i>
+                    <span id="message">error </span>
+                                            
+                </div>
+            </div>
+            <div class="row">
+                <div class="collab">
+                    <label for="dob">Date Of Birth:</label>
+                </div>
+                <div class="colin">
+                    <input type="Date" id="dob" name="dob">
+                    <i class="ion-checkmark-circled"></i>
+                    <i class="ion-alert-circled"></i>
+                    <span id="message">error </span>
+                                            
+                </div>
+            </div>
+            <div class="row">
+                <div class="collab">
+                    <label for="address">Address:</label>
+                    
+                </div>
+                <div class="colin">
+                    <textarea name="address" id="address" cols="30" rows="10"></textarea>
+                    <i class="ion-checkmark-circled"></i>
+                    <i class="ion-alert-circled"></i>
+                    <span id="message"> error</span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="collab">
+                    <label for="city">City:</label>
+                </div>
+                <div class="colin">
+                    <input type="text" id="city" name="city" maxlength="10">
+                    <i class="ion-checkmark-circled"></i>
+                    <i class="ion-alert-circled"></i>
+                    <span id="message"> error</span>
+                </div>
+                </div>
+            </div>
+            
+           
+            <div class="row">
+                <div class="collab">
+                    <label for="qualification" required >Qualification:</label>
+                </div>
+                <div class="colin">
+                    <select name="qualification" id="qualification">
+                            <option value=" ">Qualification:</option>
+                            <option value="Graduation">Graduation</option>
+                            <option value="BTech.">CSE</option>
+                            <option value="MTech.">IT</option>
+                            <option value="MCA">ECE</option>
+                            <option value="BCA">B.Sc</option>
+                        
+                    </select>
+                </div>
+              </div>
+                <div class="row">
+                <div class="collab">
+                    <label for="field">Choose your Field:</label>
+                </div>
+                <div class="colin">
+                    <input type="checkbox" class="specialization" id="de" name="specialization[]" value="Developer" >Developer<br/>
+                    <input type="checkbox" class="specialization" id="te" name="specialization[]" value="Testing">Testing<br/>
+                    <input type="checkbox" class="specialization" id="de" name="specialization[]" value="Designing">Designing<br/>
+                    <input type="checkbox" class="specialization" id="ne" name="specialization[]" value="Marketing">Networking<br/>
+                </div>
+            </div>
+            </form>
+            
+                <div class="row">
+                    <input type="submit" value="SUBMIT"onclick="validateForm()" >
+                </div>  
+              <div class="colin"> Cotact us Visit <a href="https://www.sparkouttech.com/"> Sparkout Tech Solution </div>
+        </div>  
+        
+    </body>
+</html> 
